@@ -1,0 +1,9 @@
+- name: Demo roles
+  debug:
+    msg: Hi, I am from demo role
+# this should load another role called common
+- name: Import common role
+  import_role:
+    name: common
+    tasks_from: hello.yaml
+

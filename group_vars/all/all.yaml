@@ -1,0 +1,9 @@
+MONGODB_HOST: mongodb-{{env}}.daws90.shop
+REDIS_HOST: redis-{{env}}.daws90.shop
+CATALOGUE_HOST: catalogue-{{env}}.daws90.shop
+CART_HOST: cart-{{env}}.daws90.shop
+MYSQL_HOST: mysql-{{env}}.daws90.shop
+USER_HOST: user-{{env}}.daws90.shop
+RABBITMQ_HOST: rabbitmq-{{env}}.daws90.shop
+SHIPPING_HOST: shipping-{{env}}.daws90.shop
+PAYMENT_HOST: payment-{{env}}.daws90.shop
