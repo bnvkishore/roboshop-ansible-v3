@@ -1,6 +1,6 @@
 - name: configue "{{ component }}" server
   hosts: "{{ component }}"
-  connnection: local
+  connection: local
   become: yes
   roles:
   - "{{ component }}"
